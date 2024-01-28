@@ -242,7 +242,6 @@ import {
   CalendarIcon,
   IssuesIcon,
   WikiIcon,
-  Promotion,
   NavRow,
   CoinsIcon,
   CodeIcon,

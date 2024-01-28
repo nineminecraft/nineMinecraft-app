@@ -245,6 +245,7 @@ command_listener(async (e) => {
 </script>
 
 <template>
+  <HeartIcon />
   <StickyTitleBar v-if="videoPlaying" />
   <video
     v-if="videoPlaying"
@@ -268,7 +269,7 @@ command_listener(async (e) => {
           </h3>
         </div>
         <div class="error-div">
-          Modrinth App failed to load correctly. This may be because of a corrupted file, or because
+          nineMinecraft App failed to load correctly. This may be because of a corrupted file, or because
           the app is missing crucial files.
         </div>
         <div class="error-div">You may be able to fix it one of the following ways:</div>

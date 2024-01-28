@@ -152,7 +152,7 @@ onMounted(async () => {
             :previous-function="prevPhase"
             :progress="phase"
             title="Signing in"
-            description="The Modrinth App uses your Microsoft account to allow you to launch Minecraft. You can sign in with your Microsoft account here, and switch between multiple accounts."
+            description="The nineMinecraft App uses your Microsoft account to allow you to launch Minecraft. You can sign in with your Microsoft account here, and switch between multiple accounts."
           />
         </FakeAccountsCard>
         <div class="pages-list">
@@ -211,7 +211,7 @@ onMounted(async () => {
                 :previous-function="prevPhase"
                 :progress="phase"
                 title="Installing modpacks"
-                description="When you download a modpack, Modrinth App will automatically install it for you. You can view the progress of the installation here."
+                description="When you download a modpack, nineMinecraft App will automatically install it for you. You can view the progress of the installation here."
               />
             </template>
           </FakeAppBar>
@@ -256,8 +256,8 @@ onMounted(async () => {
       class="first-tip highlighted"
       :progress-function="nextPhase"
       :progress="phase"
-      title="Enter the Modrinth App!"
-      description="This is the Modrinth App guide. Key parts are marked with a green shadow. Click 'Next' to
+      title="Enter the nineMinecraft App!"
+      description="This is the nineMinecraft App guide. Key parts are marked with a green shadow. Click 'Next' to
       proceed. You can leave the tutorial anytime using the Exit button above the plus button on the bottom left."
     />
     <div v-if="phase === 1" class="whole-page-shadow" />
@@ -295,15 +295,15 @@ onMounted(async () => {
       :previous-function="prevPhase"
       :progress="phase"
       title="Settings"
-      description="You will be able to view and change the settings for the Modrinth App here. You can change the appearance, set and download new Java versions, and more."
+      description="You will be able to view and change the settings for the nineMinecraft App here. You can change the appearance, set and download new Java versions, and more."
     />
     <TutorialTip
       v-if="phase === 9"
       class="final-tip highlighted"
       :progress-function="finishOnboarding"
       :progress="phase"
-      title="Enter the Modrinth App!"
-      description="That's it! You're ready to use the Modrinth App. If you need help, you can always join our discord server!"
+      title="Enter the nineMinecraft App!"
+      description="That's it! You're ready to use the nineMinecraft App. If you need help, you can always join our discord server!"
     />
   </div>
 </template>

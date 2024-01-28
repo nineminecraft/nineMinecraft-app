@@ -1,12 +1,10 @@
 <template>
   <div class="page-loading" :class="{ 'app-loading': appLoading }">
-    <AnimatedLogo class="initializing-icon" />
+    <span> hi welcome to nineminecraft app </span>
   </div>
 </template>
 
 <script setup>
-import { AnimatedLogo } from 'omorphia'
-
 defineProps({
   appLoading: Boolean,
 })

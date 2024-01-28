@@ -13,7 +13,6 @@ import {
   NavRow,
   formatCategoryHeader,
   formatCategory,
-  Promotion,
   XIcon,
   DropdownSelect,
 } from 'omorphia'
@@ -691,7 +690,6 @@ onUnmounted(() => unlistenOffline())
       </Card>
     </aside>
     <div class="search">
-      <Promotion class="promotion" :external="false" query-param="?r=launcher" />
       <Card class="project-type-container">
         <NavRow :links="selectableProjectTypes" />
       </Card>
@@ -832,6 +830,7 @@ onUnmounted(() => unlistenOffline())
 
 .project-type-container {
   display: flex;
+  margin-top: 1rem;
   flex-direction: column;
   width: 100%;
 }
